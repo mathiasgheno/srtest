@@ -1,0 +1,24 @@
+{
+  "name": "srtest",
+  "version": "0.0.0-semantic-released",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "semantic-release": "semantic-release --branches main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasgheno/srtest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathiasgheno/srtest/issues"
+  },
+  "homepage": "https://github.com/mathiasgheno/srtest#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
+  }
+}
