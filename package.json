@@ -1,34 +1,17 @@
 {
-  "name": "@mga_/srtest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "root",
+  "private": true,
   "scripts": {
-    "test": "",
-    "semantic-release": "semantic-release --branches main"
+    "publish": "lerna publish"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mathiasgheno/srtest.git"
-  },
-  "keywords": [],
-  "publishConfig": {
-    "access": "public"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mathiasgheno/srtest/issues"
-  },
-  "homepage": "https://github.com/mathiasgheno/srtest#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "semantic-release": "^19.0.5",
-    "@semantic-release/npm": "^9.0.1"
-  },
-  "dependencies": {}
+    "lerna": "^4.0.0",
+    "semantic-release": "^19.0.5"
+  }
 }
