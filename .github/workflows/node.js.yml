@@ -28,6 +28,9 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm test
+    - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+      with:
+        token: ${{ secrets.GH_TOKEN }}
     - run: npm run publish
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
