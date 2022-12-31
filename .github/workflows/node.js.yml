@@ -37,3 +37,11 @@ jobs:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    - name: Set env
+      run: echo RELEASE_VERSION=$(cat lerna.json | jq '.version')
+    - name: Create a Release
+      uses: elgohr/Github-Release-Action@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        title: ${{ env.RELEASE_VERSION }}
