@@ -1,0 +1,25 @@
+{
+  "name": "@mga_/test2",
+  "version": "1.0.7",
+  "description": "aa",
+  "author": "mathias <mathiasgheno@gmail.com>",
+  "homepage": "https://github.com/mathiasgheno/srtest#readme",
+  "license": "ISC",
+  "main": "lib/test2.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiasgheno/srtest.git"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "bugs": {
+    "url": "https://github.com/mathiasgheno/srtest/issues"
+  }
+}
