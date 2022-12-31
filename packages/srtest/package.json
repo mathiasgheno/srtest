@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "",
-    "semantic-release": "semantic-release --branches main"
+    "test": ""
   },
   "repository": {
     "type": "git",
