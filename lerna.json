@@ -2,5 +2,13 @@
   "packages": [
     "packages/*"
   ],
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "exact": true,
+      "message": "chore(release): %s"
+    }
+  },
   "version": "1.0.11"
 }

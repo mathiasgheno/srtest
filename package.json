@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "test": "lerna run test",
-    "publish": "lerna publish --conventional-commits --yes --create-release github"
+    "publish": "lerna publish --yes"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
