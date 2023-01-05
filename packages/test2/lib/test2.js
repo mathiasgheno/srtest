@@ -9,6 +9,9 @@ function test2() {
 function test3() {
     // TODO
 }
+function test4() {
+    // TODO
+}
 function test1() {
     // TODO
 }
